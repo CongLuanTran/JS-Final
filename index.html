@@ -1,25 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Photo Gallery</title>
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/gallery.css" />
     <script src="js/gallery.js"></script>
   </head>
 
   <body>
+    <div id="image">Hover over an image below to display here.</div>
 
-    <div id="image">
-      Hover over an image below to display here.
-    </div>
+    <img
+      class="preview"
+      alt="A Bird"
+      src="img/bird-8785666_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
 
-    <img class="preview" alt="Styling with a Bandana" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img
+      class="preview"
+      alt="A Tiger"
+      src="img/tiger-3198598_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
 
-    <img class="preview" alt="With My Boy" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img
+      class="preview"
+      alt="A Lion"
+      src="img/lion-8947711_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
 
-    <img class="preview" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt="Young Puppy" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img
+      class="preview"
+      alt="A Pelican"
+      src="img/pelican-8710717_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
 
+    <img
+      class="preview"
+      alt="A Koala"
+      src="img/koala-8874351_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="A Horse"
+      src="img/horse-8414411_640.jpg"
+      onmouseover="upDate(this)"
+      onfocus="upDate(this)"
+      onmouseout="unDo()"
+      onblur="unDo()"
+    />
   </body>
-
 </html>
