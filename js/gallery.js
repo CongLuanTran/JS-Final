@@ -26,3 +26,11 @@ function unDo() {
   elem.style.backgroundImage = "url('')";
   elem.innerHTML = "Hover over an image below to display here.";
 }
+
+function setTabFocus() {
+  var previews = document.getElementsByClassName("preview");
+  for (let index = 0; index < previews.length; index++) {
+    previews[index].setAttribute("tabindex", index + 1);
+    console.log("Tabindex added for image" + previews[index].alt);
+  }
+}
